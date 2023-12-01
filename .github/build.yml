@@ -1,0 +1,13 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test
+        uses: RoiSoleil/flatten-p2-repo@latest
