@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Test
-        uses: RoiSoleil/flatten-p2-repo@latest
+      uses: RoiSoleil/flatten-p2-repo@latest
