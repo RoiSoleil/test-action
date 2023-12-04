@@ -9,7 +9,9 @@ jobs:
   build-image:
     runs-on: ubuntu-latest
     steps:
-    - name: Test
+    - name: Checkout
+      uses: actions/checkout@main
+    - name: Flatten P2 repository
       uses: RoiSoleil/flatten-p2-repo@main
       with:
         repository-path: "repository"
