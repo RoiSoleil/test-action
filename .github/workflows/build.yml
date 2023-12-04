@@ -12,4 +12,4 @@ jobs:
     - name: Test
       uses: RoiSoleil/flatten-p2-repo@main
       with:
-        repository-path: "sdfjkhskdjfh"
+        repository-path: "./repository"
