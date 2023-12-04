@@ -11,3 +11,5 @@ jobs:
     steps:
     - name: Test
       uses: RoiSoleil/flatten-p2-repo@main
+      with:
+        repository-path: "sdfjkhskdjfh"
